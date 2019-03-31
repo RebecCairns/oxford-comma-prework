@@ -8,7 +8,7 @@ def oxford_comma(arr)
   if(arr.length > 2)
     lastElement = arr.pop
     newString = arr.join(", ")
-    newString += "and #{lastElement}"
+    newString += ", and #{lastElement}"
   end   
   return newString
 end
